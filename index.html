@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С Новым годом!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="visible">
+                <h2 class="visible__text">Кликни на шар</h2>
+                <img class="visible__img" id="snowball" src="img/pngwing.com (1).png" alt="Снежный шар">
+            </div>
+            <div class="hidden" id="hidden">
+                <div class="hidden__content">
+                    <img src="img/pngwing.com (2).png" alt="" class="hidden__img">
+                  
+                    <div class="hidden__text">
+                        <h2 id="name"></h2>
+                        В Новый Год за окном <br>
+                        Тихо падает снег… <br>
+                        Пусть за Вашим столом <br>
+                        Будут радость и смех, <br>
+                        Пусть завидный успех <br>
+                        Ждет вас в деле любом <br>
+                        И войдет без помех <br>
+                        Счастье в светлый ваш дом! <br>
+                    </div>
+                </div>
+            </div>
+            <form class="form" id="myForm">
+                <div class="form__row">
+                    <div class="input__name">Имя</div><input type="text" name="userName">
+                </div>
+                <div class="form__row">
+                    <div class="input__name">Цвет текста</div><input type="text" name="textColor">
+                </div>
+                <div class="form__row">
+                    <div class="input__name">Размер шрифта</div><input type="text" name="textSize">
+                </div>
+                    <button class="btn" name="btn">Применить</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
